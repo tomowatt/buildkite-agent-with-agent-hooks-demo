@@ -1,4 +1,4 @@
-# buildkite-agent-with-agent-plugins-demo
+# buildkite-agent-with-agent-hooks-demo
 
 ## About
 
