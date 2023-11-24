@@ -10,7 +10,7 @@ Manually running a Pod with the pre-built container image from this repository w
 
 
 ```bash
-kubectl run k8s-agent-with-plugins -i --tty --image ghcr.io/tomowatt/buildkite-agent-with-agent-plugins-demo:main -- start --token "{AGENT TOKEN}" --tags "queue=k8s-agent-with-plugins"
+kubectl run k8s-agent-with-plugins -i --tty --image ghcr.io/tomowatt/buildkite-agent-with-agent-hooks-demo:main -- start --token "{AGENT TOKEN}" --tags "queue=k8s-agent-with-plugins"
 ```
 
 Then using a Pipeline configuration like below to show Agent Plugins being used.
